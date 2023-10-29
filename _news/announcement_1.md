@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending IROS 2023 in person as an author
+Attending IROS 2023 in person
