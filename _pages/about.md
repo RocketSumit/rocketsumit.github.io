@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Greetings! I'm a Robotics Engineer at Dyson Robot Learning Lab. My current focus
+Greetings! I'm a Robotics Engineer at Dyson Robot Learning Lab. My focus
 lies on robot manipulation using imitation and reinforment learning. My
 professional journey has been an exhilarating exploration of robotics,
 encompassing humanoids, autonomous driving, soft robots and manipulation arms. Beyond the lab, I
