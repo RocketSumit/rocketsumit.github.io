@@ -3,7 +3,7 @@ layout: page
 title: Sadhvuta
 description: The smart mobile trash bin
 img: assets/img/projects/sadhvuta/logo.jpg
-importance: 3
+importance: 2
 category: undergrad
 ---
 

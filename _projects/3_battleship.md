@@ -3,7 +3,7 @@ layout: page
 title: NAO Playing Battleship
 description: Humanoid playing battleship against human opponent
 img: assets/img/projects/battleship/NAO.jpg
-importance: 2
+importance: 3
 category: undergrad
 ---
 <div class="row justify-content-sm-center">
@@ -46,9 +46,12 @@ along with the type of this specific ship.
     <div class="col-sm-7">
         {% include figure.liquid path="assets/img/projects/battleship/gameflow.png" title="battleship_flowchart" width="75%" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-   1) 5x5 Board with an Aruco marker on top. 2) Flowchart depicting gameplay.
+    <div class="caption col-sm-4">
+       5x5 Board with an Aruco marker on top.
+    </div>
+    <div class="caption col-sm-7">
+       Flowchart depicting gameplay.
+    </div>
 </div>
 
 The goal of this project is to make NAO [[2]](#2) play battleship against a human opponent. For this project, we used are 5x5 size board and each fleet constructed from 2 Destroyer ships of 3 cell size and 2 Submarine ships of 2 cell size. For NAO to play this guessing game, we devised a vision, control, voice, and cognition system. The vision system helps NAO realize and locate the game board, the control system enables NAO to place its ships on board using its arms, the voice system lets NAO interact with the human opponent, and the cognition allows NAO to reason and play the game.
