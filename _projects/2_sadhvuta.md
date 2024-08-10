@@ -2,7 +2,7 @@
 layout: page
 title: Sadhvuta
 description: The smart mobile trash bin
-img: assets/img/projects/sadhvuta/logo.jpg
+img: assets/projects/sadhvuta/logo.jpg
 importance: 2
 category: undergrad
 ---
@@ -11,15 +11,16 @@ Sadhvuta is a four-wheeled, battery-operated mobile trash sorting bin. The bin's
 
 <div class="row justify-content-sm-center">
     <div class="col-sm">
-{% include figure.liquid path="assets/img/projects/sadhvuta/front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/projects/sadhvuta/front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-{% include figure.liquid path="assets/img/projects/sadhvuta/side1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/projects/sadhvuta/side1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-{% include figure.liquid path="assets/img/projects/sadhvuta/side2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="assets/projects/sadhvuta/side2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 ### Team
+
 Sumit Patidar, Dhruv Patel, Versha Dhankar, Vishawajeet Patel, Aditya Sharma, Aksh Gautam

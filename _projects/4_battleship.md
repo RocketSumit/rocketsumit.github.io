@@ -2,10 +2,11 @@
 layout: page
 title: NAO Playing Battleship
 description: Humanoid playing battleship against human opponent
-img: assets/img/projects/battleship/NAO.jpg
-importance: 3
+img: assets/projects/battleship/NAO.jpg
+importance: 1
 category: undergrad
 ---
+
 <div class="row justify-content-sm-center">
 {% include video.liquid path="https://www.youtube.com/embed/N-u9TRkwQLY?si=Akzzp1N2db9x76P9" class="rounded z-depth-1" width="480px" height="360px" %}
 </div>
@@ -40,26 +41,28 @@ along with the type of this specific ship.
 ## Gameplay
 
 <div class="row justify-content-md-center">
-    <div class="col-sm-5">
-        {% include figure.liquid path="assets/img/projects/battleship/board.png" title="aruco board" width="75%" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-5 text-center">
+            {% include figure.liquid path="assets/projects/battleship/board.png" title="aruco board" width="75%" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+           5x5 Board with an Aruco marker on top.
+        </div>
     </div>
-    <div class="col-sm-7">
-        {% include figure.liquid path="assets/img/projects/battleship/gameflow.png" title="battleship_flowchart" width="75%" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="caption col-sm-4">
-       5x5 Board with an Aruco marker on top.
-    </div>
-    <div class="caption col-sm-7">
-       Flowchart depicting gameplay.
+    <div class="col-sm-7 text-center">
+        {% include figure.liquid path="assets/projects/battleship/gameflow.png" title="battleship_flowchart" width="75%" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+           Flowchart depicting gameplay.
+        </div>
     </div>
 </div>
 
 The goal of this project is to make NAO [[2]](#2) play battleship against a human opponent. For this project, we used are 5x5 size board and each fleet constructed from 2 Destroyer ships of 3 cell size and 2 Submarine ships of 2 cell size. For NAO to play this guessing game, we devised a vision, control, voice, and cognition system. The vision system helps NAO realize and locate the game board, the control system enables NAO to place its ships on board using its arms, the voice system lets NAO interact with the human opponent, and the cognition allows NAO to reason and play the game.
 
 ## Team
+
 Sumit Patidar, Konstantinos Theodorou
 
 ## References
+
 <a id="1">[1]</a>
 NAO humanoid. IEEE. Available at:
 [https://robots.ieee.org/robots/nao/](https://robots.ieee.org/robots/nao/)
@@ -67,5 +70,5 @@ NAO humanoid. IEEE. Available at:
 
 <a id="2">[2]</a>
 Battleship. Wikipedia. Available at:
-[https://en.wikipedia.org/wiki/Battleship_(game)](https://en.wikipedia.org/wiki/Battleship_(game))
+[https://en.wikipedia.org/wiki/Battleship\_(game)](<https://en.wikipedia.org/wiki/Battleship_(game)>)
 (Accessed: 5 October 2022)

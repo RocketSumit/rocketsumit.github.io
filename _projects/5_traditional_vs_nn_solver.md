@@ -2,8 +2,8 @@
 layout: page
 title: Numerical vs Neural Network based Kinematics Solver
 description: Investigating different inverse kinematics solver for complex manipulators
-img: assets/img/projects/nnkinematics_7dof/circle_kuka.png
-importance: 1
+img: assets/projects/nnkinematics_7dof/circle_kuka.png
+importance: 3
 category: grad
 ---
 
@@ -24,22 +24,20 @@ hyper-parameters were compared against the Jacobian based iterative methods.
 ## Proposed Network Architectures
 
 <div class="row justify-content-md-center">
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/dense.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/dense.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Dense architecture for 7DOF arm </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/cnn.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/cnn.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> CNN architecture for 7DOF arm </div>
     </div>
-</div>
-<div class="row justify-content-md-center">
-<div class="caption col-sm-6"> Dense architecture for 7DOF arm </div>
-<div class="caption col-sm-6"> CNN architecture for 7DOF arm </div>
 </div>
 
 ## Results
@@ -54,34 +52,34 @@ manipulator. Compared to the iterative methods, the solution proposed by the
 network fell short in accuracy but performed on par in terms of execution time.
 
 <div class="row justify-content-md-center">
-    <div class="col-sm-4">
+    <div class="col-sm-4 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/circle_kuka.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/circle_kuka.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Simulation of Circular trajectory in Gazebo </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/circle_transpose.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/circle_transpose.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Trajectory using Jacobian Transpose </div>
     </div>
-    <div class="caption col-sm-4"> Simulation of Circular trajectory in Gazebo </div>
-    <div class="caption col-sm-6"> Trajectory using Jacobian Transpose </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/circle_pseudo.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/circle_pseudo.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Trajectory using Jacobian Pseudo-inverse </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/img/projects/nnkinematics_7dof/circle_nn.png"
+    figure.liquid path="assets/projects/nnkinematics_7dof/circle_nn.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Trajectory using CNN (better than dense)</div>
     </div>
-    <div class="caption col-sm-6"> Trajectory using Jacobian Pseudo-inverse </div>
-    <div class="caption col-sm-6"> Trajectory using CNN (better than dense)</div>
 </div>
 
 ## Team

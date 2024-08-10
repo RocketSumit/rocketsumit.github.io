@@ -2,7 +2,7 @@
 layout: page
 title: Cubinator
 description: The Rubik's cube solving robot
-img: assets/img/projects/cubinator.gif
+img: assets/projects/cubinator.gif
 importance: 1
 category: undergrad
 related_publications: false

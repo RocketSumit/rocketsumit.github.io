@@ -2,7 +2,7 @@
 layout: page
 title: Autonomous Navigation and Parking of a Robotic Car
 description: Simulating a robotic car in Morse simulator
-img: assets/img/projects/autonomous_driving/perception.png
+img: assets/projects/autonomous_driving/perception.png
 importance: 2
 category: grad
 ---
@@ -23,11 +23,11 @@ the car autonomously.
 <div class="row justify-content-md-center">
     <div class="col-sm-12">
         {% include
-    figure.liquid path="assets/img/projects/autonomous_driving/sys_arch.png"
+    figure.liquid path="assets/projects/autonomous_driving/sys_arch.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
+        <div class="caption"> Software architecture </div>
     </div>
-    <div class="caption col-sm-12"> Software architecture </div>
 </div>
 
 ## Results
@@ -35,33 +35,32 @@ the car autonomously.
 <div class="row justify-content-md-center">
     <div class="col-sm-6">
         {% include figure.liquid
-        path="assets/img/projects/autonomous_driving/dynamic_map.png"
+        path="assets/projects/autonomous_driving/dynamic_map.png"
         title="dynamic costmap" width="100%" class="img-fluid rounded
         z-depth-1" %}
+        <div class="caption"> Costmap layers </div>
     </div>
     <div class="col-sm-6"> {% include figure.liquid
-        path="assets/img/projects/autonomous_driving/lane.png" title="lane
+        path="assets/projects/autonomous_driving/lane.png" title="lane
         costmap" width="100%" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"> 2D lane mapping  </div>
     </div>
-    <div class="caption col-sm-6"> Costmap layers </div>
-    <div class="caption col-sm-6"> 2D lane mapping  </div>
-
 </div>
+
 <div class="row justify-content-md-center">
     <div class="col-sm-7">
     {% include figure.liquid
-        path="assets/img/projects/autonomous_driving/semantic_map.png"
+        path="assets/projects/autonomous_driving/semantic_map.png"
         title="semantic map" width="100%" class="img-fluid rounded z-depth-1"
         %}
+        <div class="caption"> Evalution scene from the Morse environment </div>
     </div>
     <div class="col-sm-5">
-        {% include figure.liquid
-        path="assets/img/projects/autonomous_driving/decision_making.JPG"
-        title="decision making" width="100%" class="img-fluid rounded
-        z-depth-1" %}
+    {% include figure.liquid
+        path="assets/projects/autonomous_driving/decision_making.JPG"
+        title="decision making" width="100%" class="img-fluid rounded z-depth-1" %}
+        <div class="caption"> Decision making using finite-state machine </div>
     </div>
-    <div class="caption col-sm-7"> Evalution scene from the Morse environment </div>
-    <div class="caption col-sm-5"> Decision making using finite-state machine </div>
 </div>
 
 ## Team

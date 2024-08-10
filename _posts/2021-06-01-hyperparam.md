@@ -2,7 +2,7 @@
 layout: post
 title: Hyperparameter Tuning in Tensorflow With Hparams Dashboard
 date: 2021-06-01 21:01:00
-description: 
+description:
 tags: code
 categories: tech
 ---
@@ -12,6 +12,7 @@ The term `hyperparameter` is widely used when building machine learning models. 
 Tensorboard provides several tools through the Hparams dashboard to help seek the best hyperparameters through experimentation. You can follow up on the tutorial [here](https://www.tensorflow.org/tensorboard/hyperparameter_tuning_with_hparams).
 
 ## Contents
+
 - [Contents](#contents)
 - [The usual way](#the-usual-way)
 - [Refactoring - without using nested loops](#refactoring---without-using-nested-loops)
@@ -19,6 +20,7 @@ Tensorboard provides several tools through the Hparams dashboard to help seek th
 - [References](#references)
 
 ## The usual way
+
 You may have to write multiple for loops to go through each hyperparameter, which you may want to avoid.
 
 ```python
@@ -41,9 +43,11 @@ for num_units in HP_NUM_UNITS.domain.values:
       # run model with hparams
       session_num += 1
 ```
-*** 
+
+---
 
 ## Refactoring - without using nested loops
+
 A way to refactor the above code could be using the product() function from the itertools module. This function finds the cartesian product of multiple sets i.e returns each possible combination of set elements.
 
 ```python
@@ -77,9 +81,11 @@ for num_units, dropout_rate, optimizer in list(product(*param_values)):
 	# run model with hparams
 	session_num += 1
 ```
-*** 
+
+---
 
 ## If you are not a fan of tensorboard
+
 We'll save all the data ourselves, so we can analyze it outside TensorBoard. We can utilize the panda's data frame to keep all crucial parameters. It is recommended to use classes and objects for implementing the models. Here's an example:
 
 ```python
@@ -101,13 +107,13 @@ def model(self, ...):
     ...
 ```
 
-run | epoch | loss | accuracy | epoch duration | batch size
----------|----------|---------|---|---|---
- 1 | 1 | 0.994 | 0.621 | 20.2 | 1024
- 1 | 2 | 0.546 | 0.814 | 19.3 | 1024
- 1 | 3 | 0.434 | 0.825 | 20.5 | 1024
+| run | epoch | loss  | accuracy | epoch duration | batch size |
+| --- | ----- | ----- | -------- | -------------- | ---------- |
+| 1   | 1     | 0.994 | 0.621    | 20.2           | 1024       |
+| 1   | 2     | 0.546 | 0.814    | 19.3           | 1024       |
+| 1   | 3     | 0.434 | 0.825    | 20.5           | 1024       |
 
-*** 
+---
 
 ## References
 
