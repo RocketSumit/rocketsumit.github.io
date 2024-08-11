@@ -289,8 +289,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["code", "hack", "facts"] # these tags will be displayed on the front page of your blog
-display_categories: ["science", "tech"] # these categories will be displayed on the front page of your blog
+display_tags: ["code", "hack", "facts", "paper-reviews", "books"] # these tags will be displayed on the front page of your blog
+display_categories: ["science", "tech", "robotics"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
