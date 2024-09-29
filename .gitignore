@@ -2,3 +2,5 @@
 ./Gemfile.lock
 .tweet-cache/
 _site/
+node_modules
+package-lock.json
