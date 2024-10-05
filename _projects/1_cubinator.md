@@ -33,5 +33,5 @@ Sumit Patidar, Utkarsh Kunwar, Versha Dhankar, Vipin Tolia, Shubham
 
 <a id="1">[1]</a>
 God's algorithm. Wikipedia. Available at:
-[https://en.wikipedia.org/wiki/God%27s_algorithm ](https://en.wikipedia.org/wiki/God%27s_algorithm)
+[https://en.wikipedia.org/wiki/God%27s_algorithm](https://en.wikipedia.org/wiki/God%27s_algorithm)
 (Accessed: 5 October 2022)

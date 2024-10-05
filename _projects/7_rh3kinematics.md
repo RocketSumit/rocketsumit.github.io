@@ -59,10 +59,6 @@ Sumit Patidar, Adrian Sieler (Mentor)
 
 ## References
 
-[1] [Puhlmann, S., Harris, J. and Brock, O., 2022. RBO hand 3: A platform for
-soft dexterous manipulation. IEEE Transactions on Robotics, 38(6),
-pp.3434-3449.](https://ieeexplore.ieee.org/abstract/document/9761831/)
+[1] [Puhlmann, S., Harris, J. and Brock, O., 2022. RBO hand 3: A platform for soft dexterous manipulation. IEEE Transactions on Robotics, 38(6), pp.3434-3449.](https://ieeexplore.ieee.org/abstract/document/9761831/)
 
-[2] [Bhatt, A., Sieler, A., Puhlmann, S. and Brock, O., 2022. Surprisingly robust
-in-hand manipulation: An empirical study. arXiv preprint
-arXiv:2201.11503.](https://arxiv.org/abs/2201.11503)
+[2] [Bhatt, A., Sieler, A., Puhlmann, S. and Brock, O., 2022. Surprisingly robust in-hand manipulation: An empirical study. arXiv preprint arXiv:2201.11503.](https://arxiv.org/abs/2201.11503)
