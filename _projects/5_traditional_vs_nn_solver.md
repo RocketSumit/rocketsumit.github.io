@@ -3,7 +3,7 @@ layout: page
 title: Numerical vs Neural Network based Kinematics Solver
 description: Investigating different inverse kinematics solver for complex manipulators
 img: assets/projects/nnkinematics_7dof/circle_kuka.png
-importance: 3
+importance: 4
 category: grad
 ---
 

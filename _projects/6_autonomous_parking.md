@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Navigation and Parking of a Robotic Car
 description: Simulating a robotic car in Morse simulator
 img: assets/projects/autonomous_driving/perception.png
-importance: 2
+importance: 3
 category: grad
 ---
 

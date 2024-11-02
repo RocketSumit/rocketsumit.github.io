@@ -3,7 +3,7 @@ layout: page
 title: Soft Hand Kinematics
 description: Learning Kinematics of a Soft Hand
 img: assets/projects/rh3/rh3.gif
-importance: 1
+importance: 2
 category: grad
 ---
 
