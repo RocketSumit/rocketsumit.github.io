@@ -7,6 +7,16 @@ importance: 5
 category: grad
 ---
 
+- [Intro](#intro)
+- [Problem](#problem)
+- [Solution](#solution)
+- [Meet the Team](#meet-the-team)
+- [References](#references)
+
+## Intro
+
+As part of an entrepreneurship course at KTH, Stockholm, our team developed an innovative expense-tracking app using Flutter. The app leveraged Google's image-to-text translation library to extract purchase details from receipts, presenting spending trends through engaging visual charts. It was our creative pitch to simplify daily expense management.
+
 <div class="row justify-content-md-center">
     <div class="col-sm-4">
         {% include video.liquid path="assets/projects/recapt/app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
@@ -16,8 +26,6 @@ category: grad
     {% include figure.liquid path="assets/projects/recapt/recapt_logo.png" title="logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
-As part of an entrepreneurship course at KTH, Stockholm, our team developed an innovative expense-tracking app using Flutter. The app leveraged Google's image-to-text translation library to extract purchase details from receipts, presenting spending trends through engaging visual charts. It was our creative pitch to simplify daily expense management.
 
 ## Problem
 
@@ -43,5 +51,6 @@ Sumit Patidar, Utkarsh Kunwar, Mostafa Abdelrahman, Hamid Dimyati, Badai Kesuma,
 
 ## References
 
-1. [Flutter - build apps for any screen](https://flutter.dev/)
-2. [Reso Coder tutorial on Flutter TDD Clean Architecture](https://youtu.be/KjE2IDphA_U?si=czUNnjqubTzuU7kF)
+[1] [Flutter - build apps for any screen](https://flutter.dev/). Available at: https://flutter.dev/ (Accessed: 12 December 2024).
+
+[2] [Reso Coder tutorial on Flutter TDD Clean Architecture](https://youtu.be/KjE2IDphA_U?si=czUNnjqubTzuU7kF). Available at: https://youtu.be/KjE2IDphA_U?si=czUNnjqubTzuU7kF (Accessed: 12 December 2024).

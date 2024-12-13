@@ -6,6 +6,10 @@ img: assets/projects/nnkinematics_7dof/circle_kuka.png
 importance: 4
 category: grad
 ---
+- [About](#about)
+- [Proposed Network Architectures](#proposed-network-architectures)
+- [Results](#results)
+- [Team](#team)
 
 ## About
 

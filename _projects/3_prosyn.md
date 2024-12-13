@@ -26,6 +26,10 @@ category: undergrad
     <div class="caption">ProSynn application screenshots</div>
 </div>
 
+- [Motivation: From Classroom to Code](#motivation-from-classroom-to-code)
+- [Understanding Protein Synthesis](#understanding-protein-synthesis)
+- [The Game: Synthesizing Proteins](#the-game-synthesizing-proteins)
+
 ## Motivation: From Classroom to Code
 
 During my undergraduate biotechnology course in 2016, I had the opportunity to dive

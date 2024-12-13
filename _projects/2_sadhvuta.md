@@ -6,6 +6,10 @@ img: assets/projects/sadhvuta/logo.jpg
 importance: 2
 category: undergrad
 ---
+- [Intro](#intro)
+- [Team](#team)
+
+## Intro
 
 Sadhvuta is a four-wheeled, battery-operated mobile trash sorting bin. The bin's motion is remote-controlled, while the trash classification and segregation are fully automated. The trash classification is powered by a CNN with an accuracy of 97%. Once the bin is stationed at a trash collection point, users can throw the trash into it one at a time. The thrown trash is firstly classified into one of the three categories: paper, metal, or plastic waste. The classified trash is automatically routed into a specific robot bin based on its classified category. The aim of the project is to ease the disposal of trash around the campus and reduce littering.
 
@@ -21,6 +25,6 @@ Sadhvuta is a four-wheeled, battery-operated mobile trash sorting bin. The bin's
     </div>
 </div>
 
-### Team
+## Team
 
 Sumit Patidar, Dhruv Patel, Versha Dhankar, Vishawajeet Patel, Aditya Sharma, Aksh Gautam

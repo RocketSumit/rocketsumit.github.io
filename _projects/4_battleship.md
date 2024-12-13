@@ -14,6 +14,11 @@ category: undergrad
     NAO battling against a human opponent in a game of battleship!
 </div>
 
+- [About Battleship](#about-battleship)
+- [Gameplay](#gameplay)
+- [Team](#team)
+- [References](#references)
+
 ## About Battleship
 
 Battleship is a classical guessing game played between two opponents [[1]](#1). Each player has

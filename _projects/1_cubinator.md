@@ -15,6 +15,11 @@ related_publications: false
     Cubinator in action!
 </div>
 
+- [The Rise of Cubinator](#the-rise-of-cubinator)
+- [How Cubinator Works?](#how-cubinator-works)
+- [Team](#team)
+- [References](#references)
+
 ## The Rise of Cubinator
 
 I was in the 2nd semester of my bachelor's and had been practicing to solve a 3x3 Rubik's cube quickly for the last few months. My two roommates, Utkarsh and Versha, inspired me to take up Rubik's cube solving. Those two geniuses could already solve a variety of Rubik's cubes, some under less than 20 seconds! During that time, we all were enrolled in an Electronics coursework. As part of one of our assignments, we were required to build any working prototype under $20. Since all three of us could solve a 3x3 Rubik's cube, we thought, why not also make a robot that could solve a Rubik's cube? We challenged ourselves and completed the project in about 2-3 months. Through this project, I set my foot in the world of electronics, motors, microcontrollers, and fabrication.
