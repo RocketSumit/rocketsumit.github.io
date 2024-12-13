@@ -6,6 +6,7 @@ img: assets/projects/autonomous_driving/perception.png
 importance: 3
 category: grad
 ---
+
 - [About](#about)
 - [Architecture](#architecture)
 - [Results](#results)

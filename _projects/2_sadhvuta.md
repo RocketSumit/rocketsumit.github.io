@@ -6,6 +6,7 @@ img: assets/projects/sadhvuta/logo.jpg
 importance: 2
 category: undergrad
 ---
+
 - [Intro](#intro)
 - [Team](#team)
 

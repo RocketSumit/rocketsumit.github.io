@@ -7,9 +7,14 @@ importance: 2
 category: grad
 ---
 
-## About
+- [Intro](#intro)
+- [Kinematics-Driven Fingertip Prediction App](#kinematics-driven-fingertip-prediction-app)
+- [Team](#team)
+- [References](#references)
 
-The RBO hand 3 is a soft robotic hand developed at Robotics and Biology
+## Intro
+
+The RBO hand 3 [1] is a soft robotic hand developed at Robotics and Biology
 Laboratory (RBO) at Technical University of Berlin. It is a highly compliant
 hand designed for dexterous grasping. The inherent compliance of the fingers
 makes it hard to model them analytically unlike their rigid links counterparts.
@@ -53,6 +58,17 @@ palm and thumb bellows (T1,T2,T3).
     </div>
 </div>
 
+## Kinematics-Driven Fingertip Prediction App
+
+Building upon models I developed in my project work, I created a Flutter-based [3] app during my free time to predict fingertip positions from airmass data and vice versa. By integrating forward and inverse kinematics models, this app provides precise and real-time predictions. The project allowed me to repurpose and refine my earlier research while expanding my knowledge in mobile app development.
+
+<div class="row justify-content-md-center">
+    <div class="col-sm-4">
+        {% include video.liquid path="assets/projects/rh3/rh3_app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        <div class="caption"> App demo on android </div>
+    </div>
+</div>
+
 ## Team
 
 Sumit Patidar, Adrian Sieler (Mentor)
@@ -62,3 +78,5 @@ Sumit Patidar, Adrian Sieler (Mentor)
 [1] [Puhlmann, S., Harris, J. and Brock, O., 2022. RBO hand 3: A platform for soft dexterous manipulation. IEEE Transactions on Robotics, 38(6), pp.3434-3449.](https://ieeexplore.ieee.org/abstract/document/9761831/)
 
 [2] [Bhatt, A., Sieler, A., Puhlmann, S. and Brock, O., 2022. Surprisingly robust in-hand manipulation: An empirical study. arXiv preprint arXiv:2201.11503.](https://arxiv.org/abs/2201.11503)
+
+[3] [Flutter - build apps for any screen](https://flutter.dev/). Available at: https://flutter.dev/ (Accessed: 12 December 2024).
