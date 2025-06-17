@@ -141,8 +141,8 @@ Like James Dyson, pick it up, ponder it, and maybe—just maybe—you'll be the 
 
 ## References
 
-[1] [Top 10 James Dyson Inventions](https://www.cbsnews.com/pictures/10-awesome-inventions-from-james-dyson/)
+[1] [Top 10 James Dyson Inventions](https://www.cbsnews.com/pictures/10-awesome-inventions-from-james-dyson/) Available at: https://www.cbsnews.com/pictures/10-awesome-inventions-from-james-dyson/ (Accessed: 28 May 2025).
 
-[2] [Wheelbarrow](https://www.gardeningknowhow.com/garden-how-to/tools/maintenance-for-wheelbarrows.htm)
+[2] [Wheelbarrow](https://www.gardeningknowhow.com/garden-how-to/tools/maintenance-for-wheelbarrows.htm) Available at: https://www.gardeningknowhow.com/garden-how-to/tools/maintenance-for-wheelbarrows.htm (Accessed: 28 May 2025).
 
-[3] [Cyclonic Separation](https://energyeducation.ca/encyclopedia/Cyclone_separator)
+[3] [Cyclonic Separation](https://energyeducation.ca/encyclopedia/Cyclone_separator) Available at: https://energyeducation.ca/encyclopedia/Cyclone_separator (Accessed: 28 May 2025).
