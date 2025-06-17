@@ -1,9 +1,9 @@
 ---
 layout: post
-title: A Sharing Session with Rosyth School 🤖🎭
+title: A Sharing Session with Rosyth School 🎭
 date: 2024-05-07 21:00:00+0800
 inline: false
-related_posts: false
+related_posts: true
 ---
 
 I recently had the exciting opportunity to share a session with 330 Primary 4 students at [Rosyth School](https://www.rosyth.moe.edu.sg/) in Singapore, organized by the [James Dyson Foundation](https://www.jamesdysonfoundation.com/). The aim of the session was to inspire young minds to explore the fields of engineering and robotics, showing them how these disciplines can shape the world around them. The students were set to create [Wayang Kulit](https://en.wikipedia.org/wiki/Wayang_kulit) puppets as part of their project, and I was invited to share insights on engineering and robotics to help them make their puppets more dynamic and lifelike.

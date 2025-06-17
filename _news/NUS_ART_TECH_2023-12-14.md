@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Judging Art x Tech 2023 at NUS 🎨🤖✨
+title: Judging Art x Tech 2023 at NUS 🎨✨
 date: 2023-12-14 21:00:00+0800
 inline: false
-related_posts: false
+related_posts: true
 ---
 
 I had the incredible opportunity to participate as a judge in the [Art x Tech 2023](https://cde.nus.edu.sg/event-detail/art-x-tech-2023/) workshop at the National University of Singapore (NUS), organized by the [James Dyson Foundation](https://www.jamesdysonfoundation.com/). This unique four-day event brought together 80 pre-university students with diverse backgrounds—some with no prior STEM experience—to explore the fascinating intersections of art, design, and technology through the lens of STEAM (Science, Technology, Engineering, Art, and Mathematics).
