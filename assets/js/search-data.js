@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "post-gears-in-motion-unlocking-mechanical-marvels",
+        },{id: "post-reflections-from-roscon-2025-singapore",
+        
+          title: "Reflections from ROSCon 2025 – Singapore 🇸🇬",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/roscon/";
+          
+        },
+      },{id: "post-gears-in-motion-unlocking-mechanical-marvels",
         
           title: "Gears in Motion - Unlocking Mechanical Marvels",
         
@@ -149,7 +160,10 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/SUTD_Design_Innovation_Course_Judge_2025-08-15/";
-            },},{id: "projects-cubinator",
+            },},{id: "news-attended-roscon25-in-singapore",
+          title: 'Attended ROSCon25 in Singapore!',
+          description: "",
+          section: "News",},{id: "projects-cubinator",
           title: 'Cubinator',
           description: "The Rubik&#39;s cube solving robot",
           section: "Projects",handler: () => {
