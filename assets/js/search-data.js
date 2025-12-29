@@ -163,7 +163,12 @@ ninja.data = [{
             },},{id: "news-attended-roscon25-in-singapore",
           title: 'Attended ROSCon25 in Singapore!',
           description: "",
-          section: "News",},{id: "projects-cubinator",
+          section: "News",},{id: "news-judging-intelligent-robotics-30-119-at-sutd",
+          title: 'Judging Intelligent Robotics (30.119) at SUTD 🤖',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/SUTD_Judging_Intelligent_Robotics_2025-12-11/";
+            },},{id: "projects-cubinator",
           title: 'Cubinator',
           description: "The Rubik&#39;s cube solving robot",
           section: "Projects",handler: () => {
