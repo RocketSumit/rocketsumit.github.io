@@ -168,6 +168,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/SUTD_Judging_Intelligent_Robotics_2025-12-11/";
+            },},{id: "news-judging-tech-ngo-s-ai-powered-search-amp-rescue-challenge-at-sutd",
+          title: 'Judging TECH NGO’s AI-Powered Search &amp;amp; Rescue Challenge at SUTD 🌏🤖',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/SUTD_StreamxD_Robotics_2026-01-16/";
             },},{id: "projects-cubinator",
           title: 'Cubinator',
           description: "The Rubik&#39;s cube solving robot",
