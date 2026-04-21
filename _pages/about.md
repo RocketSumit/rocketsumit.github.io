@@ -2,16 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Robotics Engineer
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_sumit.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Singapore</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +25,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello and welcome! I’m a Robotics Engineer at the Dyson Robotics Research Lab in Singapore, where I focus on advancing robot manipulation through imitation learning and reinforcement learning methods. Currently, I am also working on next-generation robot vacuums, a challenging and exciting field.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Beyond the lab, I’m passionate about staying active and nurturing creativity. I find joy in yoga, calisthenics, and playing sports. I’m also an avid chess player, a movie and TV show enthusiast, and a budding guitarist. Additionally, I enjoy exploring the latest tech gadgets, always curious about how technology shapes the world around us.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Robotics is more than just a profession for me—it’s a lifelong passion. Whether I’m developing innovative solutions in the lab or sharing ideas with others, I’m always eager to connect and collaborate.
