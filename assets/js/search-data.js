@@ -269,7 +269,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.rocketsumit.github.io/", "_blank");
+          window.open("https://rocketsumit.github.io/", "_blank");
         },
       },{
       id: 'light-theme',
