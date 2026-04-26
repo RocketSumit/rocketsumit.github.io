@@ -28,7 +28,7 @@ the car autonomously.
 <div class="row justify-content-md-center">
     <div class="col-sm-12">
         {% include
-    figure.liquid path="assets/projects/autonomous_driving/sys_arch.png"
+    figure.liquid path="./assets/projects/autonomous_driving/sys_arch.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Software architecture </div>
@@ -40,13 +40,13 @@ the car autonomously.
 <div class="row justify-content-md-center">
     <div class="col-sm-6">
         {% include figure.liquid
-        path="assets/projects/autonomous_driving/dynamic_map.png"
+        path="./assets/projects/autonomous_driving/dynamic_map.png"
         title="dynamic costmap" width="100%" class="img-fluid rounded
         z-depth-1" %}
         <div class="caption"> Costmap layers </div>
     </div>
     <div class="col-sm-6"> {% include figure.liquid
-        path="assets/projects/autonomous_driving/lane.png" title="lane
+        path="./assets/projects/autonomous_driving/lane.png" title="lane
         costmap" width="100%" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> 2D lane mapping  </div>
     </div>
@@ -55,14 +55,14 @@ the car autonomously.
 <div class="row justify-content-md-center">
     <div class="col-sm-7">
     {% include figure.liquid
-        path="assets/projects/autonomous_driving/semantic_map.png"
+        path="./assets/projects/autonomous_driving/semantic_map.png"
         title="semantic map" width="100%" class="img-fluid rounded z-depth-1"
         %}
         <div class="caption"> Evalution scene from the Morse environment </div>
     </div>
     <div class="col-sm-5">
     {% include figure.liquid
-        path="assets/projects/autonomous_driving/decision_making.JPG"
+        path="./assets/projects/autonomous_driving/decision_making.JPG"
         title="decision making" width="100%" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> Decision making using finite-state machine </div>
     </div>

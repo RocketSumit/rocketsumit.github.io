@@ -16,13 +16,13 @@ Sadhvuta is a four-wheeled, battery-operated mobile trash sorting bin. The bin's
 
 <div class="row justify-content-sm-center">
     <div class="col-sm">
-{% include figure.liquid path="assets/projects/sadhvuta/front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="./assets/projects/sadhvuta/front.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-{% include figure.liquid path="assets/projects/sadhvuta/side1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="./assets/projects/sadhvuta/side1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm">
-{% include figure.liquid path="assets/projects/sadhvuta/side2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="./assets/projects/sadhvuta/side2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

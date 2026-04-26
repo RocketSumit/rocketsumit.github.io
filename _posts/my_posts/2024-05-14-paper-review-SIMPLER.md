@@ -24,7 +24,7 @@ toc:
 
 <div class="row justify-content-md-center">
   <div class="col-sm-10 text-center">
-      {% include figure.liquid path="assets/paper-reviews/simpler/1.png" width="75%" class="img-fluid rounded z-depth-1" %}
+      {% include figure.liquid path="./assets/paper-reviews/simpler/1.png" width="75%" class="img-fluid rounded z-depth-1" %}
       <div class="caption text-center"> Train on real, evaluate in real </div>
     </div>
 </div>
@@ -42,7 +42,7 @@ SIMPLER stands for **SIMULATED MANIPULATION POLICY EVALUATION FOR REAL ROBOT SET
 
 <div class="row justify-content-md-center">
   <div class="col-sm-10 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/2.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/2.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Train on real, evaluate in real </div>
   </div>
 </div>
@@ -51,7 +51,7 @@ SIMPLER stands for **SIMULATED MANIPULATION POLICY EVALUATION FOR REAL ROBOT SET
 
 <div class="row justify-content-md-center">
   <div class="col-sm-5 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/correlation.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/correlation.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Real and sim performance correlation </div>
   </div>
 </div>
@@ -71,11 +71,11 @@ The paper propose two metrics to measure the performance in sim vs real:
 
 <div class="row justify-content-md-center">
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/pearson_coefficient.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/pearson_coefficient.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Pearson correlation coefficient (r) </div>
   </div>
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/mean_maximum_rank_violation.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/mean_maximum_rank_violation.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Mean Maximum Rank Violation to overcome some limitation of Pearson correlation coefficient (r) </div>
   </div>
 </div>
@@ -89,7 +89,7 @@ The paper propose two metrics to measure the performance in sim vs real:
 
 <div class="row justify-content-md-center">
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/sysid.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/sysid.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Minimizing the loss function to mitigate the control gap. </div>
   </div>
 </div>
@@ -100,7 +100,7 @@ The goal is to match the simulator visuals to those of the real-world environmen
 
 <div class="row justify-content-md-center">
   <div class="col-sm-8 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/visual_gap.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/visual_gap.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Replacing simulation background with real-world background and object textures with real-world textures. </div>
   </div>
 </div>
@@ -111,7 +111,7 @@ Two manipulation setups are used for different tasks.
 
 <div class="row justify-content-md-center">
   <div class="col-sm-10 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/simulation_setup.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/simulation_setup.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Simulation setup 1) Using Google Robot 2) Using WidowX robot (BrideData V2 dataset) </div>
   </div>
 </div>
@@ -146,7 +146,7 @@ SIMPLER can be used to evaluate diverse sets of rigid-body tasks (non-articulate
 
 <div class="row justify-content-md-center">
   <div class="col-sm-12 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/results_google_and_widow_robot.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/results_google_and_widow_robot.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Policy performances evaluated in SIMPLER have strong correlation with those in the real world (illustrated by low MMRV and high Pearson r). </div>
   </div>
 </div>
@@ -155,7 +155,7 @@ SIMPLER can be used to evaluate diverse sets of rigid-body tasks (non-articulate
 
 <div class="row justify-content-md-center">
   <div class="col-sm-12 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/results_distribution_shifts.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/results_distribution_shifts.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> SIMPLER can be used to analyze the policies' finegrained behaviors, such as their robustness to common distribution shifts like lightings, backgrounds, camera poses, distractor objects, and table textures. </div>
   </div>
 </div>
@@ -164,19 +164,19 @@ SIMPLER can be used to evaluate diverse sets of rigid-body tasks (non-articulate
 
 <div class="row justify-content-md-center">
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/ablation_effects_of_sysid.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/ablation_effects_of_sysid.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Control loss is proportional to the Mean Maximum Rank Violation. </div>
   </div>
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/ablations_effects_of_visual_matching.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/ablations_effects_of_visual_matching.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> Real-Sim Success Gap is miminum when all visual aspects of experiments match. </div>
   </div>
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/ablation_physical_properties.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/ablation_physical_properties.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> If physical properties of the objects are varied, the correlation still remains intact, have <= 15% impact on success rates. </div>
   </div>
   <div class="col-sm-6 text-center">
-    {% include figure.liquid path="assets/paper-reviews/simpler/ablation_simulation.png" width="100%" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/paper-reviews/simpler/ablation_simulation.png" width="100%" class="img-fluid rounded z-depth-1" %}
     <div class="caption"> The Real-Sim performance correlation is invariant to the simulator. </div>
   </div>
 </div>

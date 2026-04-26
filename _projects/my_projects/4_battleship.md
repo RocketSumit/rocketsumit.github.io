@@ -47,13 +47,13 @@ along with the type of this specific ship.
 
 <div class="row justify-content-md-center">
     <div class="col-sm-5 text-center">
-            {% include figure.liquid path="assets/projects/battleship/board.png" title="aruco board" width="75%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/battleship/board.png" title="aruco board" width="75%" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
            5x5 Board with an Aruco marker on top.
         </div>
     </div>
     <div class="col-sm-7 text-center">
-        {% include figure.liquid path="assets/projects/battleship/gameflow.png" title="battleship_flowchart" width="75%" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="./assets/projects/battleship/gameflow.png" title="battleship_flowchart" width="75%" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
            Flowchart depicting gameplay.
         </div>

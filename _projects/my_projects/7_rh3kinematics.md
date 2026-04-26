@@ -32,26 +32,26 @@ palm and thumb bellows (T1,T2,T3).
 <div class="row justify-content-md-center">
     <div class="col-sm-6">
     {% include
-    figure.liquid path="assets/projects/rh3/rh3_components.png" title="rh3
+    figure.liquid path="./assets/projects/rh3/rh3_components.png" title="rh3
     hand" width="100%" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> The RBO Hand 3. Each finger has two pressure
     chambers except thumb which has one chamber. </div>
     </div>
     <div class="col-sm-6"> {% include figure.liquid
-        path="assets/projects/rh3/all_finger_heatmap.png" title="rh3
+        path="./assets/projects/rh3/all_finger_heatmap.png" title="rh3
         workspace" width="100%" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> Reachable workspace of the finger
     tips (without palm bellow and T1, T2, T3 bellow actuation) </div>
     </div>
     <div class="col-sm-6"> {% include figure.liquid
-        path="assets/projects/rh3/ring_little_combined_workspace.png"
+        path="./assets/projects/rh3/ring_little_combined_workspace.png"
         title="rh3 workspace" width="100%" class="img-fluid rounded z-depth-1"
         %}
         <div class="caption"> Reachable
     workspace of the little and ring finger with palm actuation </div>
     </div>
     <div class="col-sm-6"> {% include figure.liquid
-        path="assets/projects/rh3/thumb_workspace.png" title="rh3
+        path="./assets/projects/rh3/thumb_workspace.png" title="rh3
         workspace" width="100%" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> Reachable
     workspace of the thumb with T1, T2 and T3 bellow actuations </div>
@@ -64,7 +64,7 @@ Building upon models I developed in my project work, I created a Flutter-based [
 
 <div class="row justify-content-md-center">
     <div class="col-sm-4">
-        {% include video.liquid path="assets/projects/rh3/rh3_app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="./assets/projects/rh3/rh3_app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
         <div class="caption"> App demo on android </div>
     </div>
 </div>

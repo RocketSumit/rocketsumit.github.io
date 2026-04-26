@@ -19,11 +19,11 @@ As part of an entrepreneurship course at KTH, Stockholm, our team developed an i
 
 <div class="row justify-content-md-center">
     <div class="col-sm-4">
-        {% include video.liquid path="assets/projects/recapt/app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="./assets/projects/recapt/app_demo.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
         <div class="caption"> App Demonstration </div>
     </div>
     <div class="col-sm-4">
-    {% include figure.liquid path="assets/projects/recapt/recapt_logo.png" title="logo" class="img-fluid rounded z-depth-1" %}
+    {% include figure.liquid path="./assets/projects/recapt/recapt_logo.png" title="logo" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -31,7 +31,7 @@ As part of an entrepreneurship course at KTH, Stockholm, our team developed an i
 
 <div class="row justify-content-sm-center">
     <div class="col-sm">
-{% include figure.liquid path="assets/projects/recapt/problem_statement.png" title="problem statement" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="./assets/projects/recapt/problem_statement.png" title="problem statement" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> </div>
     </div>
 </div>
@@ -40,7 +40,7 @@ As part of an entrepreneurship course at KTH, Stockholm, our team developed an i
 
 <div class="row justify-content-sm-center">
     <div class="col-sm">
-{% include figure.liquid path="assets/projects/recapt/solution.png" title="problem statement" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="./assets/projects/recapt/solution.png" title="problem statement" class="img-fluid rounded z-depth-1" %}
         <div class="caption"> Recapt offers an advanced AI-powered solution to streamline receipt tracking and expense management. Simply scan your receipt with the app, and your expense tracker updates instantly—making detailed expense management effortless and intuitive. </div>
     </div>
 </div>

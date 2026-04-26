@@ -31,14 +31,14 @@ hyper-parameters were compared against the Jacobian based iterative methods.
 <div class="row justify-content-md-center">
     <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/dense.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/dense.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Dense architecture for 7DOF arm </div>
     </div>
     <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/cnn.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/cnn.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> CNN architecture for 7DOF arm </div>
@@ -59,28 +59,28 @@ network fell short in accuracy but performed on par in terms of execution time.
 <div class="row justify-content-md-center">
     <div class="col-sm-4 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/circle_kuka.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/circle_kuka.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Simulation of Circular trajectory in Gazebo </div>
     </div>
     <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/circle_transpose.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/circle_transpose.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Trajectory using Jacobian Transpose </div>
     </div>
     <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/circle_pseudo.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/circle_pseudo.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Trajectory using Jacobian Pseudo-inverse </div>
     </div>
     <div class="col-sm-6 text-center">
         {% include
-    figure.liquid path="assets/projects/nnkinematics_7dof/circle_nn.png"
+    figure.liquid path="./assets/projects/nnkinematics_7dof/circle_nn.png"
     title="system architecture" width="100%" class="img-fluid rounded
     z-depth-1" %}
         <div class="caption"> Trajectory using CNN (better than dense)</div>

@@ -424,7 +424,8 @@ imagemagick:
   input_directories:
     - assets/img/
     - assets/projects/
-    - assets/blogs
+    - assets/blogs/
+    - assets/paper-reviews/
   input_formats:
     - ".jpg"
     - ".jpeg"

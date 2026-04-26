@@ -9,19 +9,19 @@ category: undergrad
 
 <div class="row justify-content-md-center">
     <div class="col-sm-2">
-            {% include figure.liquid path="assets/projects/prosynn/gameplay_1.png" title="gameplay_1" width="100%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/prosynn/gameplay_1.png" title="gameplay_1" width="100%" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2">
-            {% include figure.liquid path="assets/projects/prosynn/gameplay_2.png" title="gameplay_2" width="100%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/prosynn/gameplay_2.png" title="gameplay_2" width="100%" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2">
-            {% include figure.liquid path="assets/projects/prosynn/gameplay_3.png" title="gameplay_3" width="100%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/prosynn/gameplay_3.png" title="gameplay_3" width="100%" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2">
-            {% include figure.liquid path="assets/projects/prosynn/gameplay_4.png" title="gameplay_4" width="100%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/prosynn/gameplay_4.png" title="gameplay_4" width="100%" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-2">
-            {% include figure.liquid path="assets/projects/prosynn/gameplay_5.png" title="gameplay_5" width="100%" class="img-fluid rounded z-depth-1" %}
+            {% include figure.liquid path="./assets/projects/prosynn/gameplay_5.png" title="gameplay_5" width="100%" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="caption">ProSynn application screenshots</div>
 </div>
@@ -88,7 +88,7 @@ inspired me during my studies.
 
 <div class="row justify-content-md-center">
     <div class="col-sm-4">
-        {% include video.liquid path="assets/projects/prosynn/gameplay.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.liquid path="./assets/projects/prosynn/gameplay.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
         <div class="caption"> Gameplay video </div>
     </div>
 </div>
