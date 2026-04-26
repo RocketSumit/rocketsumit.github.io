@@ -1,189 +1,147 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Sumit Patidar
+  label: Senior Robotics Engineer
+  email: patidarsumit@rocketmail.com
+  location: Singapore
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: >
+    Robotics Engineer specializing in robot manipulation, imitation learning, and perception systems.
+    Experienced in building and deploying intelligent robotic systems using Python, C++, ROS, and deep learning frameworks.
+    Passionate about scalable infrastructure, efficient workflows, and applied robotics research.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: sumitpatidar
+    - network: GitHub
+      username: rocketsumit
 
   sections:
-    Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
-
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: Dyson
+        position: Senior Robotics Engineer
+        location: Singapore
+        start_date: 2026-01
+        end_date: Present
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Dyson
+        position: Robotics Engineer
+        location: Singapore
+        start_date: 2023-07
+        end_date: 2025-12
+        summary: >
+          Contributed to the development of the Dyson Robot Learning Lab, focusing on robot manipulation,
+          perception systems, and infrastructure for large-scale data collection.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed scalable infrastructure for collecting human demonstrations using Franka Panda and UR5 robots
+          - Worked on hierarchical diffusion policy for multi-task robotic manipulation (featured on CNBC)
+          - Designed manipulation tasks, collected 1500+ demonstrations, and ran 10,000+ robot trials
+          - Developed perception pipelines using Grounding DINO and SAM
+          - Integrated classical vision with ToF sensors for robust perception
+          - Designed robotic cleaning mechanisms using embedded systems, stepper and dc motors
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
+      - company: Corning
+        position: Robotics Engineer Intern
         location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        start_date: 2022-10
+        end_date: 2023-01
+        summary: >
+          Worked on automation and precision robotics for optical filter assembly.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Migrated ROS1 Python codebase to ROS2
+          - Programmed Meca500 robot for automated assembly
+          - Built OpenCV-based system for detecting and measuring miniature optical filters
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: TechnoYantra
+        position: ROS Developer Intern
+        location: Remote
+        start_date: 2021-07
+        end_date: 2021-09
+        summary: >
+          Worked on 3D perception and sensor fusion for autonomous driving systems.
+        highlights:
+          - Used Autoware.AI for LiDAR-camera fusion to predict 3D bounding boxes
+          - Calibrated Velodyne LiDAR and monocular camera systems at a remote location
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Tata Consultancy Services
+        position: Software Engineer Intern
+        location: Noida, India
+        start_date: 2018-06
+        end_date: 2018-08
+        summary: >
+          Developed an autonomous system for dataset generation and annotation.
+        highlights:
+          - Built robotic pipeline for automated image capture and labeling
+          - Trained Mask R-CNN for object detection and segmentation
+
+    Education:
+      - institution: EIT Digital Master School
+        location: Europe
+        area: Autonomous Systems
+        studyType: MSc ICT Innovation (Dual Degree)
+        start_date: 2019-08
+        end_date: 2022-09
+        score: "4.0/4.0"
+        highlights:
+          - Merit Scholarship Recipient
+          - Thesis on "In-Hand Manipulation via Constraint Exploitation and Wrist Movements"
+
+      - institution: KTH Royal Institute of Technology
+        location: Stockholm, Sweden
+        studyType: MSc Year 1
+
+      - institution: Technical University of Berlin
+        location: Berlin, Germany
+        studyType: MSc Year 2
+
+      - institution: Indian Institute of Technology Mandi
+        location: India
+        area: Electrical Engineering
+        studyType: BTech
+        start_date: 2015-08
+        end_date: 2019-06
+        score: "9.19/10"
+        highlights:
+          - Institute Silver Medal
+          - Semester exchange at TU Munich
+          - MIT-IIT Entrepreneurship Bootcamp participant
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Ma, X.
+          - Patidar, S.
+          - Haughton, I.
+          - James, S.
+        publisher: CVPR
+        releaseDate: 2024
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Green Screen Augmentation Enables Scene Generalisation in Robotic Manipulation
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Teoh, E.
+          - Patidar, S.
+          - Ma, X.
+          - James, S.
+        publisher: arXiv
+        releaseDate: 2024
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: In-Hand Cube Reconfiguration Simplified
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Patidar, S.
+          - Sieler, A.
+          - Brock, O.
+        publisher: IROS
+        releaseDate: 2023
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Programming
+        keywords: Python, C++, MATLAB, LaTeX
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Frameworks
+        keywords: ROS2, OpenCV, PyTorch, TensorFlow
 
-      - name: English
-        summary: "Fluent"
+      - name: Tools
+        keywords: Docker, Fusion 360, Siemens NX
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Activities
+        keywords: Sports, Hiking, Travel, Reading
