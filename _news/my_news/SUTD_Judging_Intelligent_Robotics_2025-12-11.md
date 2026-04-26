@@ -32,6 +32,7 @@ related_posts: true
       <li><a href="#judging-criteria">Judging Criteria</a></li>
       <li><a href="#my-experience">My Experience</a></li>
     </ul>
+
   </div>
 
  <!-- Right column: Video -->

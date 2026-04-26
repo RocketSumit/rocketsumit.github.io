@@ -214,7 +214,6 @@ for small spaces.
     </div>
 </div>
 
-
 **Team 13: Casino Night—CareDose Medication Dispensing Ecosystem**
 
 CareDose turns daily medication into a fun routine, with a pill-vending unit,
@@ -262,18 +261,18 @@ access.
 
 Of all the creative solutions, three teams emerged as stars:
 
-**Best Demonstration:**  EcoRig—Ground-Based Arboreal Camera Servicing System
+**Best Demonstration:** EcoRig—Ground-Based Arboreal Camera Servicing System
 EcoRig captivated the room with a hands-on demo of its safe, modular rig for
 ground-level camera installation and servicing, tested live with NParks. Smart,
 practical, and impactful for conservation work!
 
-**Best Prototype:**  Augmented Display and Mapping & Enhanced Vision for
+**Best Prototype:** Augmented Display and Mapping & Enhanced Vision for
 Emergencies (ADAM & EVE)
 The ADAM & EVE team wowed judges with their helmet-integrated HUD for
 firefighters, seamlessly blending hardware and AI. Real-time thermal imaging and
 hazard detection set a new standard for emergency response tech.
 
-**Best Innovation:**  NEST—AI-Enhanced Play-Based Autism Screening
+**Best Innovation:** NEST—AI-Enhanced Play-Based Autism Screening
 NEST’s playful, sensor-rich toy kit and instant analytics reimagined autism
 screening as fun, objective, and data-driven—an innovation with potential to
 transform childhood diagnosis and therapy.

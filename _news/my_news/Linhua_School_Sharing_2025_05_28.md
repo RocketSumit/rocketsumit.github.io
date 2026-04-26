@@ -18,11 +18,11 @@ Picture this: It's 7 AM on a Wednesday morning, and Linhua Primary School is buz
 
 The spotlight shines on **Kimberly Quek**, a brilliant Dyson Project Manager, ready to challenge everything these young minds think they know about engineering.
 
-*"What is engineering?"* she asks with a twinkle in her eye.
+_"What is engineering?"_ she asks with a twinkle in her eye.
 
 The responses come in waves: "Dirty outfits!" 🛠️ "Oily hands!" 🔧 "Only for boys!" 👦
 
-Kimberly shakes her head with a knowing smile. *"None of that captures the real magic of engineering,"* she says. *"Engineering is the art of turning problems into possibilities—the superpower of making the world better, one invention at a time!"* 💫
+Kimberly shakes her head with a knowing smile. _"None of that captures the real magic of engineering,"_ she says. _"Engineering is the art of turning problems into possibilities—the superpower of making the world better, one invention at a time!"_ 💫
 
 ## Chapter 2: Young James and His Wheelbarrow Woes
 
@@ -52,7 +52,7 @@ Most people would just curse and give up. But not James! His frustration becomes
     </div>
 </div>
 
-*"Frustration,"* James proves, *"is just invention in disguise!"* 💡
+_"Frustration,"_ James proves, _"is just invention in disguise!"_ 💡
 
 ## Chapter 3: The Mystery of the Failing Vacuum
 
@@ -62,7 +62,7 @@ Now it's my turn! As a Robotics Engineer, I get to share the story that put Dyso
 
 **The Investigation:** James becomes a detective. He discovers the villain—the dust bag! Dust cakes the lining, choking the airflow like a clogged nose. Not only does it kill performance, but those disposable bags are wasteful and expensive! 💸
 
-**The Eureka Moment:** While strolling through Bath, James spots a sawmill with a giant cyclone spinning sawdust out of the air. Lightning strikes! ⚡ *"What if I put that same cyclone magic inside a vacuum?"*
+**The Eureka Moment:** While strolling through Bath, James spots a sawmill with a giant cyclone spinning sawdust out of the air. Lightning strikes! ⚡ _"What if I put that same cyclone magic inside a vacuum?"_
 
 <div class="row justify-content-md-center">
   <div class="col-sm-4 text-center">
@@ -137,7 +137,7 @@ Like James Dyson, pick it up, ponder it, and maybe—just maybe—you'll be the 
 
 ---
 
-*Special thanks to the James Dyson Foundation for making this incredible experience possible, and to the amazing students and staff at Linhua Primary School for their enthusiasm and curiosity! Together, we're building the next generation of innovators! 🎉*
+_Special thanks to the James Dyson Foundation for making this incredible experience possible, and to the amazing students and staff at Linhua Primary School for their enthusiasm and curiosity! Together, we're building the next generation of innovators! 🎉_
 
 ## References
 
