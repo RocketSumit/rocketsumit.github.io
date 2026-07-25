@@ -5,7 +5,7 @@ permalink: /projects/
 description: A Collection of Cool Creations
 nav: true
 nav_order: 3
-display_categories: [undergrad, grad]
+display_categories: [grad, undergrad]
 horizontal: false
 ---
 

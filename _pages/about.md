@@ -25,14 +25,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome! 🤖✨ I’m a Robotics Engineer at the Dyson Robotics Research
-Lab in Singapore 🇸🇬, where I currently work on robot vacuums. Previously, I
-worked on robot manipulation, focusing on imitation learning and reinforcement
-learning .
+Hello and welcome! 👋
 
-Outside of work, I like staying active 💪 and playing multiple sports 🏀⚽. I
-also enjoy chess ♟️, movies and TV shows 🎬, playing guitar 🎸, and keeping up
-with the latest tech 🚀.
+I'm a **Robotics Engineer** at the **Dyson Robotics Research Lab** in Singapore 🇸🇬, where I work on developing the next generation of autonomous robots. My interests span **robot learning**, **robot manipulation**, **imitation learning**, **reinforcement learning**, and **robotics software**, with the goal of building intelligent systems that can robustly interact with the real world.
 
-Robotics is a field I care deeply about, and I’m always excited by opportunities
-to build useful systems and collaborate with others 🤝
+This website is where I document my projects, research, technical notes, and occasional tutorials on robotics, machine learning, and software engineering. I enjoy sharing what I learn along the way and hope these resources are useful to others.
+
+Outside of robotics, I enjoy staying active 💪 through sports 🏀⚽, playing chess ♟️, hiking 🥾, reading 📚 and traveling ✈️.
+
+Thanks for stopping by!
