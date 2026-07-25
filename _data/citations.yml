@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-03'
 papers:
   6qcXubEAAAAJ:d1gkVwhDpl0C:
-    citations: 17
+    citations: 18
     title: Green screen augmentation enables scene generalisation in robotic manipulation
     year: '2024'
   6qcXubEAAAAJ:u-x6o8ySG0sC:
-    citations: 177
+    citations: 179
     title: Hierarchical diffusion policy for kinematics-aware multi-task robotic manipulation
     year: '2024'
   6qcXubEAAAAJ:u5HHmVD_uO8C:
