@@ -37,7 +37,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-reflections-from-roscon-2025-singapore",
+        },{id: "post-numerically-stable-softmax-and-cross-entropy",
+        
+          title: "Numerically Stable Softmax and Cross-Entropy",
+        
+        description: "Why every deep learning framework implements stable softmax and cross-entropy.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/softmax/";
+          
+        },
+      },{id: "post-unlimited-zotero-pdf-sync-with-google-drive-or-onedrive-using-zotmoov",
+        
+          title: "Unlimited Zotero PDF Sync with Google Drive or OneDrive Using ZotMoov",
+        
+        description: "Store unlimited Zotero PDFs on your own cloud storage while keeping citations synced for free.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/zotero-sync/";
+          
+        },
+      },{id: "post-reflections-from-roscon-2025-singapore",
         
           title: "Reflections from ROSCon 2025 – Singapore 🇸🇬",
         
@@ -92,17 +114,6 @@ ninja.data = [{
             window.location.href = "/blog/2024/paper-review-SIMPLER/";
           
         },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
-          
-        },
       },{id: "post-illuminating-reads",
         
           title: "Illuminating Reads",
@@ -123,17 +134,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2022/atoms-molecules/";
-          
-        },
-      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
-        
-          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
       },{id: "post-hyperparameter-tuning-in-tensorflow-with-hparams-dashboard",
@@ -202,51 +202,56 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/my_news/SUTD_StreamxD_Robotics_2026-01-16/";
-            },},{id: "projects-cubinator",
-          title: 'Cubinator',
-          description: "The Rubik&#39;s cube solving robot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/1_cubinator/";
-            },},{id: "projects-sadhvuta",
-          title: 'Sadhvuta',
-          description: "The smart mobile trash bin",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/2_sadhvuta/";
-            },},{id: "projects-prosynn",
-          title: 'ProSynn',
-          description: "An Educational App on Protein Synthesis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/3_prosyn/";
-            },},{id: "projects-nao-playing-battleship",
-          title: 'NAO Playing Battleship',
-          description: "Humanoid playing battleship against human opponent",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/4_battleship/";
             },},{id: "projects-numerical-vs-neural-network-based-kinematics-solver",
           title: 'Numerical vs Neural Network based Kinematics Solver',
           description: "Investigating different inverse kinematics solver for complex manipulators",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/5_traditional_vs_nn_solver/";
+              window.location.href = "/projects/my_projects/pg_5_traditional_vs_nn_solver/";
             },},{id: "projects-autonomous-navigation-and-parking-of-a-robotic-car",
           title: 'Autonomous Navigation and Parking of a Robotic Car',
           description: "Simulating a robotic car in Morse simulator",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/6_autonomous_parking/";
+              window.location.href = "/projects/my_projects/pg_6_autonomous_parking/";
             },},{id: "projects-soft-hand-kinematics",
           title: 'Soft Hand Kinematics',
           description: "Learning Kinematics of a Soft Hand",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/7_rh3kinematics/";
+              window.location.href = "/projects/my_projects/pg_7_rh3kinematics/";
             },},{id: "projects-in-hand-manipulation-simplified",
           title: 'In-Hand Manipulation - Simplified',
           description: "In-Hand Manipulaton via Constraint Exploitation and Wrist-Movements🤌",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/8_dexterous_manipulation/";
+              window.location.href = "/projects/my_projects/pg_8_dexterous_manipulation/";
             },},{id: "projects-recapt",
           title: 'Recapt',
           description: "Scan your receipts to track your expenses",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/9_recapt/";
+              window.location.href = "/projects/my_projects/pg_9_recapt/";
+            },},{id: "projects-cubinator",
+          title: 'Cubinator',
+          description: "The Rubik&#39;s cube solving robot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/ug_1_cubinator/";
+            },},{id: "projects-sadhvuta",
+          title: 'Sadhvuta',
+          description: "The smart mobile trash bin",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/ug_2_sadhvuta/";
+            },},{id: "projects-prosynn",
+          title: 'ProSynn',
+          description: "An Educational App on Protein Synthesis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/ug_3_prosyn/";
+            },},{id: "projects-nao-playing-battleship",
+          title: 'NAO Playing Battleship',
+          description: "Humanoid playing battleship against human opponent",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/ug_4_battleship/";
+            },},{id: "projects-mit-iit-entrepreneurship-bootcamp",
+          title: 'MIT-IIT Entrepreneurship Bootcamp',
+          description: "Design thinking, rapid prototyping, and entrepreneurship through real-world problem solving.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/ug_mit_iit_bootcamp/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
