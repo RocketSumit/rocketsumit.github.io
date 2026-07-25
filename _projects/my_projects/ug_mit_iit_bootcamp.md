@@ -63,6 +63,7 @@ We mentored school students as they transformed their ideas into working prototy
             Volunteering at Tinkerfest event in New Delhi
         </div>
     </div>
+
 </div>
 
 ---
@@ -73,7 +74,7 @@ Throughout the bootcamp, our teams explored a variety of ideas spanning accessib
 
 ## TreatTime
 
-*A pet-powered alarm clock.*
+_A pet-powered alarm clock._
 
 Many people struggle to wake up despite multiple alarms.
 
@@ -95,7 +96,7 @@ The project explored how existing daily routines—in this case caring for a pet
 
 ## Low-Cost Trash Compactor
 
-*Affordable waste management for dense urban environments.*
+_Affordable waste management for dense urban environments._
 
 Working with local stakeholders in Delhi, we investigated challenges in municipal waste collection.
 
@@ -115,7 +116,7 @@ After multiple brainstorming sessions and workshop iterations, we designed a pro
 
 ## Indoor Navigation for the Visually Impaired
 
-*Making unfamiliar environments easier to navigate.*
+_Making unfamiliar environments easier to navigate._
 
 Through interviews with visually impaired users, we learned that many avoided large social gatherings because navigating unfamiliar venues independently was difficult.
 
@@ -127,7 +128,7 @@ Although simple, the project highlighted how meaningful impact can sometimes com
 
 ## Kamand Coasters
 
-*Supporting rural women entrepreneurs.*
+_Supporting rural women entrepreneurs._
 
 In Kamand village, local artisans produced beautifully handcrafted coasters. However, each coaster required nearly two days of manual work, limiting productivity and income.
 
@@ -149,7 +150,7 @@ The project combined engineering with entrepreneurship, demonstrating that innov
 
 ## BUS (बस)
 
-*Improving accessibility in public transportation.*
+_Improving accessibility in public transportation._
 
 Public transportation can be particularly challenging for visually impaired commuters.
 
