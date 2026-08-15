@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-numerically-stable-softmax-and-cross-entropy",
+        },{id: "post-3d-reconstruction-from-pixels-to-radiance-fields",
+        
+          title: "3D Reconstruction: From Pixels to Radiance Fields",
+        
+        description: "How computers turn flat 2D photographs into rich 3D worlds: from voxels and meshes to NeRF and 3D Gaussian Splatting.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/3d-reconstruction/";
+          
+        },
+      },{id: "post-numerically-stable-softmax-and-cross-entropy",
         
           title: "Numerically Stable Softmax and Cross-Entropy",
         
@@ -202,6 +213,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/my_news/SUTD_StreamxD_Robotics_2026-01-16/";
+            },},{id: "news-empowering-future-inventors-rapid-prototyping-workshop-at-tmjc-stem-week-2026",
+          title: 'Empowering Future Inventors: Rapid Prototyping Workshop at TMJC STEM Week 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/my_news/TMJC_Design_Workshop_2026-02-16/";
             },},{id: "projects-numerical-vs-neural-network-based-kinematics-solver",
           title: 'Numerical vs Neural Network based Kinematics Solver',
           description: "Investigating different inverse kinematics solver for complex manipulators",
