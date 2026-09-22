@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic_sumit.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Singapore</p>
+  more_info:
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,12 +24,21 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello and welcome! 👋
+Hey, I'm Sumit 👋
 
-I'm a **Robotics Engineer** at the **Dyson Robotics Research Lab** in Singapore 🇸🇬, where I work on developing the next generation of autonomous robots. My interests span **robot learning**, **robot manipulation**, **imitation learning**, **reinforcement learning**, and **robotics software**, with the goal of building intelligent systems that can robustly interact with the real world.
+I'm a **Senior Robotics Engineer at Dyson Robotics Research Lab (DRRL)** in
+Singapore 🇸🇬, where I work on building autonomous robots that have to deal with
+the inconvenient fact that the real world is messy.
 
-This website is where I document my projects, research, technical notes, and occasional tutorials on robotics, machine learning, and software engineering. I enjoy sharing what I learn along the way and hope these resources are useful to others.
+My work spans **robot manipulation, robot learning, classical robotics, and
+software engineering**, with a focus on combining perception, kinematics,
+dynamics, control and robot learning to build
+robust robotic systems 🤖.
 
-Outside of robotics, I enjoy staying active 💪 through sports 🏀⚽, playing chess ♟️, hiking 🥾, reading 📚 and traveling ✈️.
+I use this site to share **projects, research, technical notes, and tutorials**
+on robotics, machine learning, and software engineering — mostly things I've
+learned while building robots and occasionally breaking them.
 
-Thanks for stopping by!
+Outside robotics, I enjoy **sports, chess ♟️, hiking 🥾, reading 📚, and
+traveling ✈️**. I also spend more time than I'd like tweaking Vim, development
+environments, and workflows.
