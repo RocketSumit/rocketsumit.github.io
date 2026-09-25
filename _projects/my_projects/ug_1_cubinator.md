@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 <div class="row justify-content-sm-center">
-{% include video.liquid path="https://www.youtube.com/embed/UdD4uY8Ph30?si=VLm4GNRUDZhBfgLY" class="rounded z-depth-1" width="480px" height="360px" %}
+    {% include video.liquid path="https://www.youtube.com/embed/UdD4uY8Ph30?si=VLm4GNRUDZhBfgLY" class="rounded z-depth-1" width="640" height="480" %}
 </div>
 <div class="caption">
     Cubinator in action!

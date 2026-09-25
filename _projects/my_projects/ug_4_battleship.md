@@ -8,7 +8,7 @@ category: undergrad
 ---
 
 <div class="row justify-content-sm-center">
-{% include video.liquid path="https://www.youtube.com/embed/N-u9TRkwQLY?si=Akzzp1N2db9x76P9" class="rounded z-depth-1" width="480px" height="360px" %}
+    {% include video.liquid path="https://www.youtube.com/embed/N-u9TRkwQLY?si=Akzzp1N2db9x76P9" class="rounded z-depth-1" width="640" height="480" %}
 </div>
 <div class="caption">
     NAO battling against a human opponent in a game of battleship!
