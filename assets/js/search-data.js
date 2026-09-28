@@ -233,9 +233,9 @@ ninja.data = [{
           description: "Learning Kinematics of a Soft Hand",
           section: "Projects",handler: () => {
               window.location.href = "/projects/my_projects/pg_7_rh3kinematics/";
-            },},{id: "projects-in-hand-manipulation-simplified",
-          title: 'In-Hand Manipulation - Simplified',
-          description: "In-Hand Manipulaton via Constraint Exploitation and Wrist-Movements🤌",
+            },},{id: "projects-in-hand-cube-reconfiguration-simplified",
+          title: 'In-Hand Cube Reconfiguration: Simplified',
+          description: "Gravity-driven in-hand manipulation through constraint exploitation and wrist movements.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/my_projects/pg_8_dexterous_manipulation/";
             },},{id: "projects-recapt",
