@@ -1,40 +1,132 @@
 ---
 layout: page
-title: In-Hand Manipulation - Simplified
-description: In-Hand Manipulaton via Constraint Exploitation and Wrist-Movements🤌
+title: "In-Hand Cube Reconfiguration: Simplified"
+description: Gravity-driven in-hand manipulation through constraint exploitation and wrist movements.
 img: assets/img/publication_preview/rh3_spin.gif
 importance: 1
 category: grad
 ---
 
-<div class="row justify-content-sm-center">
-{% include video.liquid path="https://www.youtube.com/embed/7IIQrVgDE2E?si=i54MShCxrh3y6xcZ" class="rounded z-depth-1" width="640px" height="360px" %}
+<div class="row justify-content-md-center">
+
+  <div class="col-sm-6 mt-4 mt-md-0">
+    {% include video.liquid
+       path="assets/projects/inhand_manipulation_rh3/rh3_perspective.mp4"
+       class="img-fluid rounded z-depth-1"
+       controls=true
+       autoplay=false %}
+    <div class="caption text-center">
+      <strong>Gravity in Disguise!</strong><br>
+      In-hand manipulation using gravity and wrist movements.
+    </div>
+  </div>
+
+  <div class="col-sm-6 mt-4 mt-md-0">
+    {% include video.liquid
+       path="https://www.youtube.com/embed/7IIQrVgDE2E"
+       class="rounded z-depth-1"
+       width="100%"
+       height="360px" %}
+    <div class="caption text-center">
+      Spelling demonstration using an open-loop sequence
+      of motion primitives.
+    </div>
+  </div>
+
 </div>
-<div class="caption">
-    Spelling demonstration using an open-loop sequence of motion primitives.
+
+## Overview
+
+We present a simple, constraint-based approach to in-hand
+cube reconfiguration using gravity and inertial forces as
+the sole actuation sources. By exploiting contact constraints
+through wrist movements, the hand acts primarily as a
+constraint reconfigurator, simplifying planning and control.
+We demonstrate robust reconfiguration of a cube across all
+24 possible orientations using a sequence of simple motion
+primitives, highlighting the potential of classical planning
+and environmental constraints for dexterous manipulation.
+
+## Method
+
+<div class="row justify-content-md-center">
+
+  <div class="col-md-4 col-12 text-center mb-3">
+    {% include figure.liquid
+       path="assets/projects/inhand_manipulation_rh3/fig1_sequence.png"
+       width="100%"
+       class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+      <strong>Figure 1: Cube reconfiguration sequence.</strong>
+      A sequence of motion primitives transforms the initial
+      cube configuration into the desired orientation.
+    </div>
+  </div>
+
+  <div class="col-md-4 col-12 text-center mb-3">
+    {% include figure.liquid
+       path="assets/projects/inhand_manipulation_rh3/fig2_primitives.png"
+       width="100%"
+       class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+      <strong>Figure 2: Motion primitives.</strong>
+      Five primitives—spin, shift left, shift right, shift
+      back, and roll—exploit contact constraints to
+      reorient the cube.
+    </div>
+  </div>
+
+  <div class="col-md-4 col-12 text-center mb-3">
+    {% include figure.liquid
+       path="assets/projects/inhand_manipulation_rh3/fig3_routine.png"
+       width="100%"
+       class="img-fluid rounded z-depth-1" %}
+    <div class="caption">
+      <strong>Figure 3: Motion primitive sequencing.</strong>
+      A high-level routine combines motion primitives
+      to execute a cube reconfiguration task.
+    </div>
+  </div>
+
 </div>
 
-This master’s thesis represents the culmination of my work at the Robotics and Biology Laboratory at the Technical University of Berlin, where I have had the privilege of exploring the fascinating intersection of robotics and biology. I am deeply grateful to Adrian Sieler (PhD), whose mentorship and insights have been invaluable in navigating the challenges and breakthroughs of this project. My sincere thanks also go to Prof. Oliver Brock, whose guidance as my thesis supervisor has been instrumental in shaping this research journey. This work is a testament to their support and the inspiring environment fostered at the lab.
+The approach decomposes cube reconfiguration into a sequence
+of simple motion primitives that exploit contact constraints
+between the hand and the object. By leveraging gravity and
+inertial forces through wrist movements, these primitives
+enable the cube to spin, roll, and shift within the hand.
+A high-level routine combines them to achieve the desired
+configuration, reducing the complexity of planning and
+control while retaining robust manipulation capabilities.
 
-- [Abstract](#abstract)
-- [Curious to Dive Deeper?](#curious-to-dive-deeper)
+## Acknowledgements
 
-## Abstract
+This work was carried out at the Robotics and Biology
+Laboratory, Technical University of Berlin, as part of my
+master's thesis. I am grateful to
+[Adrian Sieler](https://scholar.google.com/citations?user=DaQiBfMAAAAJ&hl=de)
+for his mentorship and to [Prof. Oliver Brock](https://www.tu.berlin/en/robotics/about-rbo/prof-dr-oliver-brock) for supervising
+this work. Their guidance and the research environment at
+the lab were instrumental in making this project possible.
 
-We present in-hand manipulation skills using gravity and inertial forces as the only actuation sources on a dexterous, compliant, anthropomorphic hand. Gravity, a flexible actuation source, can be used to exploit all constraints in the surrounding of an object. We leverage gravity and inertial forces by employing
-wrist motions to exploit the constraints provided by the hand. Exploiting these constraints leads to a reconfiguration of an object within the hand. In this work, we tackle the problem of cube reconĄguration to investigate the possibilities of purely wrist-based manipulation. For this, we limit the actuation
-sources to gravity and inertial forces and use the hand purely as a constraint reconfigurator. This reduces the action space for manipulation and simpliflies the required control and modeling. We decompose the manipulation task
-into a sequence of gravity-based constraint-exploitations. Our first approach uses hand-crafted open-loop skills to manipulate diverse objects. The second approach incorporates object state feedback to account for skill failures, variation in object placements, and human perturbations for robust manipulation of a cube. Using both approaches, we robustly manipulate a cube to any of its 24 configurations. Our results show we can achieve versatile manipulation by
-constraint configuration and exploitation through wrist movements.
+## Publications & Resources
 
-## Curious to Dive Deeper?
+**Conference paper**
 
-Eager to explore what we uncovered? Discover the full thesis, our presentation at IROS, and a detailed project overview below:
+S. Patidar, A. Sieler and O. Brock,
+"In-Hand Cube Reconfiguration: Simplified,"
+_2023 IEEE/RSJ International Conference on Intelligent
+Robots and Systems (IROS)_, Detroit, MI, USA,
+2023, pp. 8751–8756.
 
-1. [In-Hand Manipulation via Constraint Exploitation and Wrist-Movements](https://www.static.tu.berlin/fileadmin/www/10002220/Theses/sumit_ma.pdf). Master Thesis. Available at: https://www.static.tu.berlin/fileadmin/www/10002220/Theses/sumit_ma.pdf (Accessed: 12 December 2024).
+- [Read the paper (IEEE Xplore)](https://ieeexplore.ieee.org/document/10341521)
+- [Project website](https://rbo.gitlab-pages.tu-berlin.de/robotics/simpleIHM/)
 
-2. S. Patidar, A. Sieler and O. Brock, "In-Hand Cube Reconfiguration: Simplified," 2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI, USA, 2023, pp. 8751-8756, doi: 10.1109/IROS55552.2023.10341521, url: [https://ieeexplore.ieee.org/document/10341521](https://ieeexplore.ieee.org/document/10341521) (Accessed: 12 December 2024).
+**Master's thesis**
 
-3. [simpleIHM](https://rbo.gitlab-pages.tu-berlin.de/robotics/simpleIHM/). Project Website. Available at: https://rbo.gitlab-pages.tu-berlin.de/robotics/simpleIHM/ (Accessed: 12 December 2024).
+[In-Hand Manipulation via Constraint Exploitation and
+Wrist-Movements](https://www.static.tu.berlin/fileadmin/www/10002220/Theses/sumit_ma.pdf)
 
-4. [Video Friday](https://spectrum.ieee.org/video-friday-squishable-bugbot). IEEE Spectrum. Available at: https://spectrum.ieee.org/video-friday-squishable-bugbot (Accessed: 12 December 2024).
+**Related coverage**
+
+[IEEE Spectrum – Video Friday](https://spectrum.ieee.org/video-friday-squishable-bugbot)
