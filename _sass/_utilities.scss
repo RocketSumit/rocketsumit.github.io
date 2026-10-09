@@ -603,3 +603,12 @@ figure.cover {
 mjx-container[jax="CHTML"][display="true"] {
   overflow-x: auto;
 }
+
+// Responsive video iframe embeds (YouTube, Vimeo)
+figure {
+  iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+}
