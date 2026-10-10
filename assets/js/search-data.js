@@ -218,56 +218,66 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/my_news/TMJC_Design_Workshop_2026-02-16/";
-            },},{id: "projects-numerical-vs-neural-network-based-kinematics-solver",
-          title: 'Numerical vs Neural Network based Kinematics Solver',
-          description: "Investigating different inverse kinematics solver for complex manipulators",
+            },},{id: "projects-hierarchical-diffusion-policy-hdp",
+          title: 'Hierarchical Diffusion Policy (HDP)',
+          description: "Hierarchical Diffusion Policy for Kinematics-Aware Multi-Task Robotic Manipulation (CVPR 2024).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/pg_5_traditional_vs_nn_solver/";
-            },},{id: "projects-autonomous-navigation-and-parking-of-a-robotic-car",
-          title: 'Autonomous Navigation and Parking of a Robotic Car',
-          description: "Simulating a robotic car in Morse simulator",
+              window.location.href = "/projects/my_projects/dyson/1_hdp/";
+            },},{id: "projects-green-screen-augmentation",
+          title: 'Green Screen Augmentation',
+          description: "Green Screen Augmentation Enables Scene Generalisation in Robotic Manipulation (arXiv 2024).",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/pg_6_autonomous_parking/";
-            },},{id: "projects-soft-hand-kinematics",
-          title: 'Soft Hand Kinematics',
-          description: "Learning Kinematics of a Soft Hand",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/pg_7_rh3kinematics/";
+              window.location.href = "/projects/my_projects/dyson/2_green_screen/";
             },},{id: "projects-in-hand-cube-reconfiguration-simplified",
           title: 'In-Hand Cube Reconfiguration: Simplified',
           description: "Gravity-driven in-hand manipulation through constraint exploitation and wrist movements.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/pg_8_dexterous_manipulation/";
-            },},{id: "projects-recapt",
-          title: 'Recapt',
-          description: "Scan your receipts to track your expenses",
+              window.location.href = "/projects/my_projects/grad/1_dexterous_manipulation/";
+            },},{id: "projects-soft-hand-kinematics",
+          title: 'Soft Hand Kinematics',
+          description: "Learning forward and inverse kinematics of the compliant RBO Hand 3 for control and visualization.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/pg_9_recapt/";
+              window.location.href = "/projects/my_projects/grad/2_rh3_kinematics/";
+            },},{id: "projects-autonomous-navigation-and-parking-of-a-robotic-car",
+          title: 'Autonomous Navigation and Parking of a Robotic Car',
+          description: "Autonomous driving, dynamic mapping, and parking of a small-scale vehicle in MORSE simulation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/grad/3_autonomous_parking/";
+            },},{id: "projects-numerical-vs-neural-network-based-kinematics-solver",
+          title: 'Numerical vs Neural Network based Kinematics Solver',
+          description: "Investigating numerical and deep neural network-based inverse kinematics solvers for a 7-DOF redundant manipulator.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/grad/4_traditional_vs_nn_solver/";
+            },},{id: "projects-recapt-expense-tracking-app",
+          title: 'Recapt — Expense Tracking App',
+          description: "An entrepreneurship project exploring automated expense tracking through user research, surveys, and rapid prototyping.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_projects/grad/5_recapt/";
             },},{id: "projects-cubinator",
           title: 'Cubinator',
-          description: "The Rubik&#39;s cube solving robot",
+          description: "An Arduino-powered Rubik&#39;s Cube solving robot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/ug_1_cubinator/";
+              window.location.href = "/projects/my_projects/undergrad/1_cubinator/";
             },},{id: "projects-sadhvuta",
           title: 'Sadhvuta',
-          description: "The smart mobile trash bin",
+          description: "A mobile trash sorting robot.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/ug_2_sadhvuta/";
+              window.location.href = "/projects/my_projects/undergrad/2_sadhvuta/";
             },},{id: "projects-prosynn",
           title: 'ProSynn',
-          description: "An Educational App on Protein Synthesis",
+          description: "An educational game for learning protein synthesis through interactive gameplay.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/ug_3_prosyn/";
-            },},{id: "projects-nao-playing-battleship",
-          title: 'NAO Playing Battleship',
-          description: "Humanoid playing battleship against human opponent",
+              window.location.href = "/projects/my_projects/undergrad/3_prosyn/";
+            },},{id: "projects-battleship",
+          title: 'Battleship',
+          description: "Humanoid robot battleship player",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/ug_4_battleship/";
+              window.location.href = "/projects/my_projects/undergrad/4_battleship/";
             },},{id: "projects-mit-iit-entrepreneurship-bootcamp",
           title: 'MIT-IIT Entrepreneurship Bootcamp',
-          description: "Design thinking, rapid prototyping, and entrepreneurship through real-world problem solving.",
+          description: "Entrepreneurship and design-thinking bootcamp focused on solving real-world problems through field research, rapid prototyping, and user validation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/my_projects/ug_mit_iit_bootcamp/";
+              window.location.href = "/projects/my_projects/undergrad/5_mit_iit_bootcamp/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
